@@ -258,7 +258,7 @@ let css = `
      margin-top: 9px;
 }
  .hud-spell-icons .hud-spell-icon[data-type="Raid"]::before {
-     background-image: url("https://zombs.io/asset/image/ui/inventory/inventory-spear-t7.svg");
+     background-image: url("https://www.iconpacks.net/icons/2/free-icon-plus-3107.png");
 }
  .hud-menu-raid .hud-the-tab {
      position: relative;
@@ -7451,18 +7451,6 @@ let _Tick = () => {
 !game.renderer.ticker._tick2 && (game.renderer.ticker._tick2 = game.renderer.ticker._tick, _Tick(), game.network.addPacketHandler(0, () => _inactiveTick()));
 game.renderer.ticker._tick = () => { };
 
-document.getElementsByClassName("hud-top-center")[0].innerHTML = `
-<a id="shopshortcut1"><img src="http://zombs.io/asset/image/ui/inventory/inventory-pickaxe-t7.svg"></a>
-<a id="shopshortcut2"><img src="http://zombs.io/asset/image/ui/inventory/inventory-spear-t7.svg"></a>
-<a id="shopshortcut3"><img src="http://zombs.io/asset/image/ui/inventory/inventory-bow-t7.svg"></a>
-<a id="shopshortcut4"><img src="http://zombs.io/asset/image/ui/inventory/inventory-bomb-t7.svg"></a>
-<a id="shopshortcut5"><img src="http://zombs.io/asset/image/ui/inventory/inventory-health-potion.svg"></a>
-<a id="shopshortcut6"><img src="http://zombs.io/asset/image/ui/inventory/inventory-pet-health-potion.svg"></a>
-<a id="shopshortcut7"><img src="http://zombs.io/asset/image/ui/inventory/inventory-shield-t10.svg"></a>
-<a id="shopshortcut8"><img src="http://zombs.io/asset/image/ui/inventory/inventory-pet-ghost-t1.svg"></a>
-<a id="shopshortcut9"><img src="http://zombs.io/asset/image/ui/inventory/inventory-pet-miner-t8.svg"></a>
-<a id="shopshortcut10"><img src="http://zombs.io/asset/image/ui/inventory/inventory-pet-carl-t8.svg"></a>
-`;
 
 
 document.getElementById('shopshortcut1').addEventListener('click', buyPickaxe);

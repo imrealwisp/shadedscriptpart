@@ -86,7 +86,7 @@ let css = `
             border-radius: 3px;
          }
          .hud-menu-icons .hud-menu-icon[data-type=Iframe]::before {
-            background-image: url("https://www.iconpacks.net/icons/2/free-settings-icon-3110-thumb.png");
+            background-image: url("https://www.iconpacks.net/icons/2/free-icon-shield-3863.png");
             background-size: 30px;
          }
  .box {

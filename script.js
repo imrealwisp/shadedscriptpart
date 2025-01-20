@@ -73,8 +73,7 @@ let css = `
           background-image: url(https://images.wallpaperscraft.com/image/single/stars_space_dark_139528_1920x1080.jpg);
      background-size: cover;
          }
-
-         .hud-menu-iframe .hud-iframe-grid {
+        .hud-menu-iframe .hud-iframe-grid {
             text-align: center;
             display: block;
             position: relative;
@@ -84,11 +83,11 @@ let css = `
             background: rgba(0, 0, 0, 0.2);
             overflow-y: auto;
             border-radius: 3px;
-         }
-         .hud-menu-icons .hud-menu-icon[data-type=Iframe]::before {
+        }
+        .hud-menu-icons .hud-menu-icon[data-type="Iframe"]::before {
             background-image: url("https://www.iconpacks.net/icons/2/free-icon-shield-3863.png");
             background-size: 30px;
-         }
+        }
  .box {
      display: block;
      width: 100%;

@@ -258,7 +258,7 @@ let css = `
      margin-top: 9px;
 }
  .hud-spell-icons .hud-spell-icon[data-type="Raid"]::before {
-     background-image: url("https://www.iconpacks.net/icons/2/free-icon-plus-3107.png");
+     background-image: url("https://www.iconpacks.net/icons/4/free-blue-plus-icon-11976.png");
 }
  .hud-menu-raid .hud-the-tab {
      position: relative;
